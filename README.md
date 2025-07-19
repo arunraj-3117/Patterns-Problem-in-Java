@@ -52,6 +52,27 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 🧠 **Logic:**  
 - First inner loop prints spaces for alignment  
 - Second inner loop prints the current row number `i`, repeated `i` times
+
+-----
+### 📅 Day 4 – Hollow Square Pattern
+
+📂 **File:** `pattern4.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+
+🧠 **Logic:**  
+- For the **first and last row**, print all stars  
+- For the **middle rows**, print `*` at the start and end, and spaces in between  
+- Use conditionals inside nested loops to handle the hollow structure
+
+---
   
 
 ## 📌 Stay Connected
