@@ -73,7 +73,34 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 - Use conditionals inside nested loops to handle the hollow structure
 
 ---
-  
+
+### 📅 Day 5 – Hollow Left-Aligned Triangle
+
+📂 **File:** `pattern5.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+    *    
+   * *   
+  *   *  
+ *     * 
+* * * * *
+
+🧠 **Logic Explanation:**
+- Use two nested loops  
+- Outer loop for each row  
+- First inner loop prints **leading spaces**  
+- Second inner loop prints stars `*` only at the **first and last position of the row**  
+- For the **first row**, print only one star  
+- For the **last row**, print all stars with single spacing
+
+🛠️ **Concepts Used:**
+- Conditional logic (`if`, `else`) inside loops
+- Precision formatting using space and character placement
+
+---
+
 
 ## 📌 Stay Connected
 
