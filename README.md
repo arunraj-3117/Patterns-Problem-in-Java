@@ -101,6 +101,26 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 
 ---
 
+### 📅 Day 6 – number Pyramid
+
+📂 **File:** `pattern6.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+    1  
+   2 2  
+  3 3 3  
+ 4 4 4 4
+5 5 5 5 5
+
+🧠 **Logic Explanation:**
+- **First Inner Loop** prints spaces `(n - i)` times for alignment  
+- **Second Inner Loop** prints number `i`, repeated `i` times  
+- `System.out.print(i + " ")` handles formatting with a space
+
+---
+
 
 ## 📌 Stay Connected
 
