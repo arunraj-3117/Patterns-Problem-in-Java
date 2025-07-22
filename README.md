@@ -120,7 +120,30 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 - `System.out.print(i + " ")` handles formatting with a space
 
 ---
+### 📅 Day 7 – Right-Shifted Solid Rectangle of Stars
 
+📂 **File:** `pattern7.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+    *****
+   *****
+  *****
+ *****
+*****
+
+🔍 **Pattern Description:**
+- This pattern prints a **solid rectangle of `*` stars** across `n` rows  
+- Each row is **right-aligned** using spaces  
+- Useful for learning **layout control** and **visual formatting**
+
+🧠 **Logic Explanation:**
+- Outer loop runs `n` times (rows)
+- First inner loop prints spaces `(n - i)`  
+- Second inner loop prints `n` stars in each row
+
+---
 
 ## 📌 Stay Connected
 
