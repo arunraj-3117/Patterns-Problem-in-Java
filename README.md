@@ -145,6 +145,41 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 
 ---
 
+### 📅 Day 8 – Diamond Shaped Star Pattern
+
+📂 **File:** `pattern8.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+   * 
+
+🔍 **Pattern Description:**
+- A **diamond-shaped** pattern formed using stars `*`
+- Top part: An increasing triangle from 1 to `n`
+- Bottom part: A decreasing triangle from `n-1` to 1
+- Leading spaces used to keep the pattern **center-aligned**
+
+🧠 **Logic Explanation:**
+- **First loop** handles the top half (1 to `n`)  
+- **Second loop** handles the bottom half (`n-1` to 1)  
+- Inside each, print `(n - i)` spaces, then `i` stars separated by space
+
+🛠️ **Concepts Practiced:**
+- Nested loops
+- Symmetry in output
+- Conditional spacing for clean shapes
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
