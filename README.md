@@ -180,6 +180,33 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 
 ---
 
+### 📅 Day 9 – Reverse Hollow Pyramid
+
+📂 **File:** `pattern9.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+* * * * *
+ *     *
+  *   *
+   * *
+    *
+
+🔍 **Pattern Description:**
+- A **reverse hollow pyramid** of stars  
+- First row: all stars  
+- Middle rows: stars at first and last positions with inner spaces  
+- Final row: a single centered star
+
+🧠 **Logic Explanation:**
+- Outer loop runs from `0` to `n-1` (rows)
+- First inner loop prints **leading spaces**  
+- Second inner loop prints `*` at start and end positions using condition `if (j == 0 || j == n - i - 1)`  
+- Else, print spaces for the hollow part
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
