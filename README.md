@@ -206,6 +206,46 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 - Else, print spaces for the hollow part
 
 ---
+### 📅 Day 10 – Hollow Diamond Star Pattern
+
+📂 **File:** `pattern10.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+//PATTERN 10
+    *
+   * *
+  *   *
+ *     *
+*       *
+ *     *
+  *   *
+   * *
+    *
+
+🔍 **Pattern Description:**
+- This pattern forms a **hollow diamond** shape using stars  
+- The **top half** increases row by row  
+- The **bottom half** decreases to form the closing side  
+- Each row has:
+  - Leading spaces for alignment
+  - Stars at the edges
+  - Hollow spaces between the stars
+
+🧠 **Logic Explanation:**
+- Outer loop: First from `1` to `n`, then `n-1` down to `1`  
+- First inner loop prints spaces: `(n - i)`  
+- Second inner loop:
+  - Print `*` when `j == 1` or `j == 2*i - 1`
+  - Else print space `" "`
+
+🛠️ **Key Concepts:**
+- Nested loops  
+- Conditional placement for hollow spaces  
+- Symmetrical alignment using spaces
+
+---
 
 ## 📌 Stay Connected
 
