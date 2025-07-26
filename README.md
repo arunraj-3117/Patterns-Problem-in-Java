@@ -246,6 +246,40 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 - Symmetrical alignment using spaces
 
 ---
+### 📅 Day 11 – Symmetric Triangle (Mountain Pattern)
+
+📂 **File:** `pattern11.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+🔍 **Pattern Description:**
+- A **symmetric triangle pattern** using stars  
+- The first half builds up from 1 to `n` stars  
+- The second half mirrors it in reverse, going from `n-1` down to 1  
+- Visually resembles a **mountain** or **arrowhead**
+
+🧠 **Logic Explanation:**
+- Outer loop 1: Runs from `1` to `n`, printing `i` stars  
+- Outer loop 2: Runs from `n-1` down to `1`, printing `i` stars  
+- Simple nested structure without spacing logic
+
+🛠️ **Concepts Used:**
+- Incrementing and decrementing loop counters  
+- Maintaining output symmetry  
+- Clean formatting and logic separation
+
+---
 
 ## 📌 Stay Connected
 
