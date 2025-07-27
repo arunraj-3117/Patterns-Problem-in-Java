@@ -280,6 +280,38 @@ Each day, I'm solving one pattern problem using core Java to strengthen my under
 - Clean formatting and logic separation
 
 ---
+### 📅 Day 12 – Alphabet Right-Aligned Triangle
+
+📂 **File:** `pattern12.java`
+
+📥 **Example Input:**
+6
+📤 **Example Output:**
+     A  
+    A B  
+   A B C  
+  A B C D  
+ A B C D E  
+A B C D E F
+
+🔍 **Pattern Description:**
+- Prints a **right-aligned triangle** using uppercase alphabets  
+- Each row begins with spaces and then prints increasing characters starting from `'A'`  
+- Visually appealing due to clean symmetry
+
+🧠 **Logic Explanation:**
+- Outer loop: Runs from `1` to `n`  
+- First inner loop: Prints `(n - i)` spaces  
+- Second inner loop:
+  - Print characters from `'A'` to `'A' + (i - 1)`  
+  - Use: `System.out.print((char) ('A' + j) + " ")`
+
+🛠️ **Concepts Used:**
+- Character arithmetic in Java  
+- Nested loops with spacing  
+- Pattern formatting for alignment
+
+---
 
 ## 📌 Stay Connected
 
