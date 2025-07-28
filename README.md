@@ -312,6 +312,34 @@ A B C D E F
 - Pattern formatting for alignment
 
 ---
+### 📅 Day 13 – Diagonal Decreasing Number Triangle
+
+📂 **File:** `pattern13.java`
+
+📥 **Example Input:**
+4
+📤 **Example Output:**
+1 2 3 4
+ 2 3 4
+  3 4
+   4
+
+🔍 **Pattern Description:**
+- A **right-shifted triangle** where each row prints numbers starting from a specific index up to `n`  
+- Each row starts further to the right, using leading spaces for alignment
+
+🧠 **Logic Explanation:**
+- Outer loop from `0` to `n-1` (rows)  
+- First inner loop: print `i` spaces  
+- Second inner loop: print numbers from `(i + 1)` to `n`  
+  - Use: `System.out.print(j + " ")`
+
+🛠️ **Concepts Used:**
+- Incremental number sequences  
+- Loop control and space formatting  
+- Right-aligned logic using spaces
+
+---
 
 ## 📌 Stay Connected
 
