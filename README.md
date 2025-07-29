@@ -340,6 +340,43 @@ A B C D E F
 - Right-aligned logic using spaces
 
 ---
+### 📅 Day 14 – Hourglass Star Pattern
+
+📂 **File:** `pattern14.java`
+
+📥 **Example Input:**
+4
+📤 **Example Output:**
+* * * * 
+ * * * 
+  * * 
+   * 
+  * * 
+ * * * 
+* * * * 
+
+🔍 **Pattern Description:**
+- This pattern forms an **hourglass shape** using stars `*`  
+- The upper half decreases in length with increasing indentation  
+- The lower half mirrors the upper half to complete the shape
+
+🧠 **Logic Explanation:**
+
+🔽 **Top Half:**
+- Loop `i` from `0` to `n - 1`  
+- Print `i` spaces  
+- Then print `(n - i)` stars with space
+
+🔼 **Bottom Half:**
+- Loop `i` from `n - 2` down to `0`  
+- Repeat the same logic to mirror the upper part
+
+🛠️ **Concepts Used:**
+- Nested loops  
+- Symmetric pattern printing  
+- Loop reversal for mirroring output
+
+---
 
 ## 📌 Stay Connected
 
