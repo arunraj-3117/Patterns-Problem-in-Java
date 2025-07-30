@@ -377,6 +377,43 @@ A B C D E F
 - Loop reversal for mirroring output
 
 ---
+### 📅 Day 15 – Mirror Number Hourglass
+
+📂 **File:** `pattern15.java`
+
+📥 **Example Input:**
+4
+📤 **Example Output:**
+1 2 3 4 
+ 2 3 4 
+  3 4 
+   4 
+  3 4 
+ 2 3 4 
+1 2 3 4 
+
+🔍 **Pattern Description:**
+- A **mirror hourglass** made of numbers  
+- Top half decreases from 4 digits down to 1, bottom half mirrors it back  
+- Numbers shift diagonally due to leading spaces
+
+🧠 **Logic Explanation:**
+
+🔽 **Top Half:**
+- Loop `i` from `0` to `n-1`  
+- Print `i` spaces  
+- Print numbers from `i+1` to `n`
+
+🔼 **Bottom Half:**
+- Loop `i` from `n-2` to `0`  
+- Mirror the same logic: spaces and ascending numbers
+
+🛠️ **Concepts Used:**
+- Number printing with control  
+- Diagonal alignment using space  
+- Loop reversal for symmetric structure
+
+---
 
 ## 📌 Stay Connected
 
