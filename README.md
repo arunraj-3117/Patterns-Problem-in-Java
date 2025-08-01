@@ -414,6 +414,43 @@ A B C D E F
 - Loop reversal for symmetric structure
 
 ---
+### 📅 Day 16 – Butterfly Wing Pattern (Hollow Center)
+
+📂 **File:** `pattern16.java`
+
+📥 **Example Input:**
+3
+📤 **Example Output:**
+*       *  
+* *   * *  
+* * * * *  
+* * * * *  
+* *   * *  
+*       *
+
+🔍 **Pattern Description:**
+- This pattern resembles **butterfly wings**, with left and right parts mirrored  
+- The top half expands inwards, while the bottom half shrinks back  
+- Stars are printed with a **central hollow gap** for visual balance
+
+🧠 **Logic Explanation:**
+
+🔼 **Top Half:**
+- Loop `i` from `1` to `n`  
+- Print `i` stars on the left  
+- Print `2 * (n - i)` spaces in the center  
+- Print `i` stars again on the right
+
+🔽 **Bottom Half:**
+- Loop `i` from `n` to `1`  
+- Repeat the same structure in reverse order
+
+🛠️ **Concepts Used:**
+- Nested loops  
+- Symmetric mirroring logic  
+- Controlled hollow spacing
+
+---
 
 ## 📌 Stay Connected
 
