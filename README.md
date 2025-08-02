@@ -451,7 +451,37 @@ A B C D E F
 - Controlled hollow spacing
 
 ---
+### 📅 Day 17 – X Shape Inside Star Square
 
+📂 **File:** `pattern17.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+* * * * * 
+* *   * * 
+*   *   * 
+* *   * * 
+* * * * * 
+
+🔍 **Pattern Description:**
+- A square made of stars with an **X-shaped hollow inside**  
+- The diagonals are **left blank** while the rest are filled with stars  
+- Beautiful symmetric design with diagonal space logic
+
+🧠 **Logic Explanation:**
+- Loop through `i` from `0` to `n - 1` (rows)  
+- Nested loop through `j` from `0` to `n - 1` (columns)  
+- Condition:
+  - If `i == j` or `i + j == n - 1` ⇒ print `" "` (space)  
+  - Else ⇒ print `"*"`
+
+🛠️ **Concepts Used:**
+- 2D loop structure  
+- Diagonal detection using index relationships  
+- Hollow effect inside filled structure
+
+---
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
