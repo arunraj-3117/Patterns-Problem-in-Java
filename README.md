@@ -482,6 +482,37 @@ A B C D E F
 - Hollow effect inside filled structure
 
 ---
+
+### 📅 Day 18 – Alphabet Pyramid (Left-Aligned)
+
+📂 **File:** `pattern18.java`
+
+📥 **Example Input:**
+5
+📤 **Example Output:**
+A
+B B
+C C C
+D D D D
+E E E E E
+
+🔍 **Pattern Description:**
+- A **left-aligned alphabet triangle**  
+- Each row contains the **same alphabet**, repeated based on the row number  
+- Characters start from `'A'` and increase alphabetically
+
+🧠 **Logic Explanation:**
+- Outer loop from `0` to `n-1` for rows  
+- Inner loop from `0` to `i` to print characters  
+- Use: `System.out.print((char) ('A' + i) + " ")`
+
+🛠️ **Concepts Used:**
+- Character operations  
+- Nested loops for structure  
+- Alphabet index mapping using ASCII values
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
