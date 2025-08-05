@@ -541,6 +541,41 @@ E E E E E
 - Alphabet index mapping using ASCII values
 
 ---
+### 📅 Day 20 – Matrix with Varying Start/End Numbers
+
+📂 **File:** `pattern20.java`
+
+📥 **Example Input:**
+5
+
+📤 **Example Output:**
+1 1 1 1 2
+3 2 2 2 2
+3 3 3 3 4
+5 4 4 4 4
+5 5 5 5 6
+
+🔍 **Pattern Description:**
+- A **5x5 matrix** where each row has:
+  - A custom starting number  
+  - Three middle numbers (repeated)  
+  - A unique ending number  
+- Alternating values across rows create visual variation
+
+🧠 **Logic Explanation:**
+
+- For row `i`:
+  - First number: If even ⇒ `i + 1`, else ⇒ `i + 2`
+  - Middle three: Usually `(i + 1)` or `i`
+  - Last number: Opposite of the first one (just +1 difference)
+
+🛠️ **Concepts Used:**
+- Row-wise conditional logic  
+- Number placement using `if`-`else`  
+- Matrix-style formatting and printing
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
