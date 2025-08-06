@@ -575,6 +575,40 @@ E E E E E
 - Matrix-style formatting and printing
 
 ---
+### 📅 Day 21 – Zigzag Matrix Numbering
+
+📂 **File:** `pattern21.java`
+
+📥 **Fixed Input:**
+5
+
+📤 **Example Output:**
+1 2 3 4 5
+10 9 8 7 6
+11 12 13 14 15
+20 19 18 17 16
+21 22 23 24 25
+
+🔍 **Pattern Description:**
+- A matrix of size `5x5`  
+- Rows alternate direction:
+  - Even rows → left to right  
+  - Odd rows → right to left  
+- Numbers increment continuously across all rows
+
+🧠 **Logic Explanation:**
+- Maintain a `count` starting from 1  
+- For each row `i`:
+  - Store 5 numbers in a temporary array  
+  - If `i` is even → print as is  
+  - If `i` is odd → print in reverse
+
+🛠️ **Concepts Used:**
+- 1D counter logic for 2D structure  
+- Direction reversal for alternate rows  
+- Printing arrays in dynamic order
+
+---
 
 ## 📌 Stay Connected
 
