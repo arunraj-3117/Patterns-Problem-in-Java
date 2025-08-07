@@ -610,6 +610,48 @@ E E E E E
 
 ---
 
+### 📅 Day 22 – Hollow Rectangle Pattern
+
+📂 **File:** `pattern22.java`
+
+📥 **Input Example:**
+Enter number of rows: 7
+Enter number of columns: 5
+
+📤 **Output:**
+* * * * * 
+*       * 
+*       * 
+*       * 
+*       * 
+*       * 
+*       * 
+* * * * * 
+
+
+🔍 **Pattern Description:**
+- Constructs a **hollow rectangle** of stars (`*`)
+- Rows/columns from user input  
+- Borders are filled, the inner area is blank
+
+🧠 **Logic Explanation:**
+- Outer loop → rows  
+- Inner loop → columns  
+- Conditions:
+  - Print `*` if:
+    - First row (`i == 1`)  
+    - Last row (`i == rows`)  
+    - First column (`j == 1`)  
+    - Last column (`j == cols`)  
+  - Else → print space
+
+🛠️ **Concepts Practiced:**
+- Loop nesting  
+- Border condition logic  
+- Custom input handling
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
