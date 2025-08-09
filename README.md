@@ -651,6 +651,38 @@ Enter number of columns: 5
 - Custom input handling
 
 ---
+### 📅 Day 23 – Alternate Hollow Columns Pattern
+
+📂 **File:** `pattern23.java`
+
+📥 **Input Example:**
+5
+
+📤 **Output:**
+* * * * *
+*   *   *
+* * * * *
+*   *   *
+* * * * *
+
+🔍 **Pattern Description:**
+- Alternates between:
+  - **Odd rows** → fully filled with stars  
+  - **Even rows** → stars only at odd column positions
+
+🧠 **Logic Explanation:**
+- Outer loop → rows (1 to n)  
+- Inner loop → columns (1 to n)  
+- Condition:
+  - If row is odd → print `*`
+  - If row is even → print `*` only for odd columns, else print space
+
+🛠️ **Concepts Practiced:**
+- Alternating row patterns  
+- Nested loops with conditional printing  
+- Parity checks (`row % 2` and `col % 2`)
+
+---
 
 ## 📌 Stay Connected
 
