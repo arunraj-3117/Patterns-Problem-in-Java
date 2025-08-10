@@ -683,6 +683,40 @@ Enter number of columns: 5
 - Parity checks (`row % 2` and `col % 2`)
 
 ---
+### 📅 Day 24 – Hollow Alphabet Square
+
+📂 **File:** `pattern24.java`
+
+📥 **Input Example:**
+5
+
+📤 **Output:**
+
+A B C D E 
+F       G
+H       I
+J       K
+L M N O P
+
+🔍 **Pattern Description:**
+- Sequential alphabets are printed starting from `A`
+- Outer rows → fully filled  
+- Inner rows → first and last positions filled, middle left blank
+
+🧠 **Logic Explanation:**
+- Use a `char` variable starting from `'A'`
+- Outer loop → rows  
+- Inner loop → columns  
+- Condition:
+  - If row is first or last → print character
+  - If row is middle → print only at column 1 and column n
+
+🛠️ **Concepts Practiced:**
+- Hollow pattern logic  
+- Character increment with `(char)(ch + 1)`  
+- Nested loop conditions
+
+---
 
 ## 📌 Stay Connected
 
