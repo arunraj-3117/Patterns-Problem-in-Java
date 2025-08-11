@@ -718,6 +718,40 @@ L M N O P
 
 ---
 
+📌 Pattern 25 – Hollow X Star Pattern
+✨ Description
+Pattern 25 creates a hollow X-shaped pattern using asterisks (*) with spaces in between, forming a symmetric design.
+It’s a classic Java pattern printing exercise that helps improve nested loop logic and conditional thinking.
+
+💡 Pattern Output (for n = 5)
+*   *
+ * * 
+  *  
+ * * 
+*   *
+🔍 Logic Used
+
+Condition 1: i == j → Places stars on the main diagonal.
+
+Condition 2: i + j == n - 1 → Places stars on the secondary diagonal.
+
+All other cells are filled with spaces to create the hollow X effect.
+
+⚙ Key Concepts
+
+Nested loops 🌀
+
+Conditional checks (if-else) 🧮
+
+Matrix coordinate logic 📐
+
+Symmetry in patterns 🎯
+
+🚀 Why It’s Interesting
+This problem strengthens logical reasoning and loop handling skills while giving you a visually satisfying output.
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
