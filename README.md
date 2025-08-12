@@ -752,6 +752,27 @@ This problem strengthens logical reasoning and loop handling skills while giving
 
 ---
 
+⭐ Pattern 26 – Horizontal & Diagonal Star Formation
+This program prints a star pattern with both full horizontal rows at the top and bottom, and a diagonal star alignment in the middle.
+
+🖼️ Pattern Output:
+* * * * * 
+      *
+    *
+  *
+* * * * *
+📚 Concepts Used:
+Nested Loops 🔄
+
+Conditional Checks ✅
+
+Symmetry in Patterns 🎯
+
+🎯 Purpose:
+Great for practicing nested loop logic and understanding pattern symmetry in Java programming.
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
