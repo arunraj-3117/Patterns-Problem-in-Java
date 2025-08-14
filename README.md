@@ -773,6 +773,31 @@ Great for practicing nested loop logic and understanding pattern symmetry in Jav
 
 ---
 
+⭐ Pattern 27 – Horizontal + Diagonal Star Pattern
+📄 Description:
+
+This program prints a star pattern with:
+
+Full horizontal lines of stars at the top and bottom
+
+Single star along a descending diagonal in the middle rows
+
+🖼️ Pattern Output (n = 5):
+* * * * *
+  * 
+    *
+      *
+* * * * *
+📚 Concepts Used:
+
+Nested loops 🔄
+
+Conditional statements ✅
+
+Diagonal detection in a grid 📐
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
