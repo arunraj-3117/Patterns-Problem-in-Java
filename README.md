@@ -798,6 +798,36 @@ Diagonal detection in a grid 📐
 
 ---
 
+⭐ Pattern 28 – Symmetric Diamond Grid Pattern
+📄 Description:
+
+This program prints a symmetric diamond-like pattern where:
+
+The middle row is fully filled with stars
+
+Rows above and below are mirror images
+
+Stars are spaced to form a grid-like symmetry
+
+🖼️ Pattern Output (n = 5):
+*   *   * 
+  * * *   
+* * * * * 
+  * * *   
+*   *   * 
+
+📚 Concepts Used:
+
+Nested loops 🔄
+
+Conditional checks ✅
+
+Symmetry & mirroring 🔁
+
+Center alignment 📐
+
+---
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
