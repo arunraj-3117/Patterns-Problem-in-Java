@@ -827,6 +827,38 @@ Symmetry & mirroring 🔁
 Center alignment 📐
 
 ---
+⭐ Pattern 29 – Creative Star Diamond ⭐
+📌 Overview
+
+This project prints a beautiful star diamond pattern in C/Java. It combines symmetry, creativity, and logic to form a structured design. Perfect for students, beginners, and coding enthusiasts to understand loops, spacing, and nested iteration concepts.
+
+The generated pattern looks like this:
+    *    
+   ***   
+  * * *  
+ *  *  * 
+* * * * *
+ *  *  * 
+  * * *  
+   ***   
+    *  
+🎯 Learning Outcomes
+
+🔹 Understand nested loops and conditional logic.
+
+🔹 Learn pattern building with proper alignment.
+
+🔹 Practice symmetry and geometrical designs in coding.
+
+🔹 Enhance problem-solving skills by working with spaces and stars (*).
+
+⚙️ Technologies Used
+
+🖥️ Java 
+
+⌨️ Console-based output
+
+----
 
 ## 📌 Stay Connected
 
