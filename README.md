@@ -860,6 +860,36 @@ The generated pattern looks like this:
 
 ----
 
+# 🎯 30 Days Java Pattern Challenge  
+
+This repository contains my **30 Days of Java Pattern Programs** 💻.  
+
+## 🏆 Final Day – Pattern 30  
+📥 **Input Example:**
+5
+
+📤 **Output:**
+*   * * * 
+*   *     
+* * * * * 
+    *   * 
+* * *   * 
+
+✨ With this, I’ve officially completed my **30-day coding journey**.  
+This challenge taught me **discipline, logical thinking, and consistency**.  
+
+---
+
+## 📌 Key Highlights:
+- 🔹 30 Java pattern programs  
+- 🔹 Daily coding discipline  
+- 🔹 Problem-solving enhancement  
+
+💡 This repo will continue to grow with new challenges and projects 🚀  
+
+---
+
+
 ## 📌 Stay Connected
 
 Follow my journey here and feel free to:
